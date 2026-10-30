@@ -10,7 +10,7 @@ lavalink:
   server:
     password: "${LAVALINK_SERVER_PASSWORD:youshallnotpass}"
     sources:
-      youtube: false # إيقاف المشغل القديم لتفعيل إضافة يوتيوب الرسمية v4
+      youtube: false
       bandcamp: true
       soundcloud: true
       twitch: true
@@ -41,7 +41,7 @@ plugins:
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
     clients:
-      - MUSIC
+      - ANDROID_TESTSUITE
       - ANDROID_VR
+      - MUSIC
       - WEB
-      - TVHTML5EMBEDDED
