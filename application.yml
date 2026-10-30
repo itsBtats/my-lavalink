@@ -42,7 +42,6 @@ plugins:
     allowDirectPlaylistIds: true
     clients:
       - MUSIC
-      - TV
       - ANDROID_VR
       - WEB
     oauth:
